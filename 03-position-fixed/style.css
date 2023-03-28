@@ -1,0 +1,20 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.padre {
+  background: red;
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.hijo {
+  background: rgb(20, 50, 146);
+  height: 300px;
+  width: 300px;
+}

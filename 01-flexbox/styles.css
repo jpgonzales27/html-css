@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container-padre {
+  background: grey; /*color de fondo*/
+  /*habiliar el flex de todos los hijos del contenedor*/
+  display: flex;
+  /*Como se acomodaran los hijos en filas o columnas*/
+  flex-direction: row;
+  /*posicion en la que apareceran los hijos dentro del padre*/
+  align-content: center;
+  /*como se mostrara los hijos dentro del padre*/
+  justify-content: space-around;
+  /*hara que siempre se vean bien los hijos y se acomoden de acuerdo a la pantalla*/
+  flex-wrap: wrap;
+  /*como se alinearan los elementos de cada fila*/
+  align-items: center;
+  /*toma todo el alto de la pantalla*/
+  height: 100vh;
+  /*separacion entre los elementos dentro del padre en x|y*/
+  gap: 50px;
+}
+
+.uno {
+  background: rgb(250, 96, 96);
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.dos {
+  background: rgb(171, 57, 171);
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+}
+
+.tres {
+  background: rgb(17, 145, 188);
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}

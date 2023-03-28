@@ -1,0 +1,16 @@
+.padre {
+  background: red;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 200px;
+}
+
+.hijo {
+  background: rgb(20, 50, 146);
+  height: 50px;
+  width: 50px;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+}

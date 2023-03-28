@@ -1,0 +1,60 @@
+/*
+Border box hace que los elementos mantengan su tamaño y
+se usa precisamente para que el box model no se rompa.
+
+.box {
+ width: 100px;
+ height: 120px;
+ padding: 5px;
+ border: 2px solid blue;
+ box-sizing: border-box;
+}
+
+width - (padding-left + padding-right) - (border-right + border-left)
+  100px - (2 * 5px) - (2 * 2px) = 86px
+  86px + 10px padding + 4px border = 100px
+
+height - (padding-top + padding-bottom) - (border-top + border-bottom)
+  120px - (2 * 5px) - (2 * 2px) = 106px
+  106px + 10px padding + 4px border = 120px
+
+
+  https://dev.to/lupitacode/que-es-el-box-sizing-en-css-2pi9
+*/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.boxcontainer {
+  background: plum;
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.uno {
+  background: rgb(228, 107, 41);
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+}
