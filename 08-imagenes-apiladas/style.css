@@ -20,3 +20,37 @@ img {
   height: 50px;
   width: 50px;
 }
+
+/*
+  display:none hace q el elemento no se muestre
+  min-width nos permite definir un ancho minimo 
+  por mas que nosotros definamos un width mas pequelo
+  respetara el min-width q colocamos
+*/
+.nombre {
+  position: absolute;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  display: none;
+  min-width: 100px;
+  width: 150px;
+  padding: 10px;
+  top: -55px;
+  left: calc(-50% - 30px);
+}
+
+.imagen:hover .nombre {
+  display: flex;
+}
+
+.text {
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  box-sizing: border-box;
+}
