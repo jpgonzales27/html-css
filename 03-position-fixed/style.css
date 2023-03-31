@@ -1,9 +1,22 @@
-/* body {
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-} */
+}
 
+/*
+  El posicionamiento fijo (Fixed) lo que hace es que nuestro elemento
+  se mantenga fijo en la posision que le indicamos podemos acomodarlo con
+  rigth,left,top,bottom
+
+  El elemento donde aplicamos la posicion fixed permanecera en ese lugar
+  asi nosotros hagamos el scroll the la pagina
+*/
 .padre {
   background: red;
   height: 200px;

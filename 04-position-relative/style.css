@@ -1,3 +1,8 @@
+/*
+  posicion relative nos ayuda a habiliar las opciones de mover nuestro
+  elemento left right top y bottom si no habilitamos la posicion relative
+  estas opciones no se aplicaran
+*/
 .padre {
   background: red;
   height: 200px;

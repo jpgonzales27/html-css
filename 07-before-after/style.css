@@ -1,7 +1,12 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .padre {
@@ -17,6 +22,21 @@ body {
   width: 200px;
   border-radius: 15px;
 }
+
+/*
+  Before y after son decoradores que nos permite agregar elementos
+  que no se reflejan en el DOM del index.hmtl pero podemos mostrarlos
+  en pantalla con estos decoradaroes
+
+  otra caracteristica es que el elemtno que se aplique before siempre 
+  se mostrate antes que el after aun asi en la reglas definiamos primoer
+  el after
+
+  la propiedad content generalmente va vacia pero se le puede colocar un texto
+  para visualizarla
+
+  las propiedades height y with no se aplicaran hasta que no definamos el display
+*/
 
 .hijo::before {
   background: white;
