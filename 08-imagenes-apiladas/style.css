@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+
+.imagenes-container {
+  margin: 100px auto;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.imagen {
+  position: relative;
+  margin-right: 10px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
