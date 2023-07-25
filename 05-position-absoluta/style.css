@@ -1,5 +1,5 @@
 /*
-  Para usar la posicion absulta esta siempre busca que su podre este posicionado
+  Para usar la posicion absulta esta siempre busca que su padre este posicionado
   ya sea con position relative o absolute para tenemos como referencia
 
   es decir siempre el absolute tiene q estar dentro de un elemento padre para poder
